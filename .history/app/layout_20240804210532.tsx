@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Madinav",
-  description: "A Healthcare Management System",
+  description: "A Healthcare management System",
 };
 
 export default function RootLayout({
