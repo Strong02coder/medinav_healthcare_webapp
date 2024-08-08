@@ -1,0 +1,22 @@
+import type { Metadata } from "next";
+import { lus_JakartPa_Sans } from "next/font/google";
+import "./globals.css";
+
+const inter = ({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Madinav",
+  description: "A Healthcare Management System",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
